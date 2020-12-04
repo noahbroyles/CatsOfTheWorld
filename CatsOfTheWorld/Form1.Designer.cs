@@ -82,7 +82,6 @@
             this.lblCatsOnFile.Size = new System.Drawing.Size(64, 13);
             this.lblCatsOnFile.TabIndex = 4;
             this.lblCatsOnFile.Text = "Cats On File";
-            this.lblCatsOnFile.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnCopyCats
             // 
