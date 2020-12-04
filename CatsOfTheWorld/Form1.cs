@@ -19,7 +19,7 @@ namespace CatsOfTheWorld
        
         
         // ToDo 2. Get rid of this method, it's annoying
-        
+        // Gone.
 
         private void btnAddCat_Click(object sender, EventArgs e) {
             // ToDo  1. Add a new cat to cats List using the contents of txtCat as the name.
