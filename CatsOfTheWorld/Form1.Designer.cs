@@ -36,6 +36,7 @@
             this.lblCatsOnFile = new System.Windows.Forms.Label();
             this.btnCopyCats = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.clearButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -102,11 +103,22 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // clearButton
+            // 
+            this.clearButton.Location = new System.Drawing.Point(146, 385);
+            this.clearButton.Name = "clearButton";
+            this.clearButton.Size = new System.Drawing.Size(75, 23);
+            this.clearButton.TabIndex = 7;
+            this.clearButton.Text = "Clear Cats";
+            this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
+            // 
             // frmCatsOfTheWorld
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.clearButton);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnCopyCats);
             this.Controls.Add(this.lblCatsOnFile);
@@ -131,6 +143,7 @@
         private System.Windows.Forms.Label lblCatsOnFile;
         private System.Windows.Forms.Button btnCopyCats;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button clearButton;
     }
 }
 
