@@ -31,7 +31,7 @@ namespace CatsOfTheWorld {
 
         private void btnAddCat_Click(object sender, EventArgs e) {
             // ToDo  1. Add a new cat to cats List using the contents of txtCat as the name.
-            lbCatsOnFile.Items.Add(txtCat.Text);
+            cats.Add(new Cat(txtCat.Text));
 
         }
 
